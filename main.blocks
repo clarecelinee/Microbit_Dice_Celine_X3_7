@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="CGUuaO$V,NY(r#pexkfc">myImage</variable><variable id="Fm.ui|HCcUp|-FIH=amJ">list</variable></variables><block type="pxt-on-start" id="R59C:p?xm*jc}JFLp3Y6" x="-4" y="-191"><statement name="HANDLER"><block type="function_call" id="x9N#3Z]T1,/5|9qR}A+g"><mutation name="SetDicePattern" functionid="@HiU]E$3i/S4Adc4SABd"></mutation><next><block type="function_call" id="qOGb#7$Mf(I~[24:^-f}"><mutation name="rollDice" functionid="j6c`^o$xjdaDVdapgFZ3"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="Pj|N9S-,A1nKxmjJqI3H" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="hTk{Nhoc$UMx44QWUz%@"><mutation name="rollDice" functionid="j6c`^o$xjdaDVdapgFZ3"></mutation></block></statement></block><block type="function_definition" id="Z7%Y~}._Cv=b!Y9wRu[x" x="5" y="346"><mutation name="rollDice" functionid="j6c`^o$xjdaDVdapgFZ3"></mutation><field name="function_name">rollDice</field><statement name="STACK"><block type="device_show_image_offset" id=":h+wV!X*D+5z^kC5Sk3Q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="t!bF$.O,gi}vH).$^zxk"><value name="LIST"><block type="variables_get" id="y:KKXVyPFPh%KP9b=S*B"><field name="VAR" id="Fm.ui|HCcUp|-FIH=amJ">list</field></block></value><value name="INDEX"><shadow type="math_number" id="jZz`q(pyvDnf-}0p[O0L"><field name="NUM">0</field></shadow><block type="device_random" id="S{@)O!aFZku0KT0i,~zZ"><value name="min"><shadow type="math_number" id="|s0SbU307VQ!/*OShgpB"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="|gX[P8{-XEUiu`FDdyAm"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="~Oh#2gTo}2%u1{gmaniK"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="$nvKUvSdFth[bu|oZ`dH"><field name="NUM">400</field></shadow></value></block></statement></block><block type="function_definition" id="p~;LGru^vdtx1X=LDo_N" x="21" y="536"><mutation name="SetDicePattern" functionid="@HiU]E$3i/S4Adc4SABd"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="Fj;[C$HV8o]/aJD^t%kI"><field name="VAR" id="Fm.ui|HCcUp|-FIH=amJ">list</field><value name="VALUE"><block type="lists_create_with" id="ja;_=$Yf0xl(!t,XATvF" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="P,Xq{WMDIvL-.V?pza/_"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="G,^zfOJA5S[J8,4B}gh3"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="0T3|#GJ5E14jICbb4t;r"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="R;M?Otz5,DOww2TV5A)q"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="w^K)9]%Did~EhYX8d51`"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="3aN3^,CV3tv-R.gw)iYa"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block></xml>
